@@ -1,0 +1,41 @@
+.feedback {
+  width: 400px;
+  text-align: center;
+  margin: 50px auto 0px auto;
+  border: solid 1px rgb(143, 143, 143);
+  border-radius: 10px;
+}
+
+.header,
+.statistics,
+.text {
+  color: grey;
+}
+
+.button {
+  min-width: 100px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  background-color: transparent;
+  font-size: 25px;
+  color: salmon;
+  box-shadow: 3px 2px 4px rgba(99, 77, 77, 0.4);
+  cursor: pointer;
+  transition: all 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.button:hover {
+  transform: scale(0.95);
+  background-color: rgb(255, 153, 20);
+  border-color: rgb(92, 91, 175);
+  color: #ffffff;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.text {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
